@@ -4,71 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yumigo | Find Your Tribe</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Top Banner -->
-  <div class="banner">
-    <p>Find your perfect friend group • No awkward meetups • 100% verified students</p>
+  <!-- Premium Header Bar -->
+  <div class="premium-bar">
+    <p>🔒 Verified college students only • ₹100 per group • No awkward meetups</p>
   </div>
 
-  <!-- Navigation -->
-  <nav>
+  <!-- Main Navigation -->
+  <nav class="wix-nav">
     <div class="container">
-      <a href="#" class="logo">
-        <img src="assets/logo.svg" alt="Yumigo" width="120">
-      </a>
-      <div class="menu-toggle">
+      <a href="#" class="logo">Yumigo</a>
+      <div class="nav-menu">
+        <a href="#groups">Groups</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#testimonials">Success Stories</a>
+        <a href="#contact" class="nav-cta">Join Now</a>
+      </div>
+      <div class="mobile-menu-toggle">
         <i class="fas fa-bars"></i>
       </div>
-      <ul class="nav-links">
-        <li><a href="#groups">Groups</a></li>
-        <li><a href="#how-it-works">How It Works</a></li>
-        <li><a href="#testimonials">Success Stories</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
+  <!-- Hero Section (WIX-style) -->
+  <section class="wix-hero">
     <div class="container">
       <h1>Find Your Tribe, <span>Join Your Vibe</span></h1>
-      <p>Connect with college students who share your passions</p>
-      <a href="#groups" class="cta-button">Explore Groups</a>
+      <p class="hero-subtitle">Connect with students who share your passions</p>
+      <a href="#groups" class="wix-cta-button">Explore Groups →</a>
     </div>
   </section>
 
-  <!-- Groups Section -->
-  <section id="groups" class="section">
+  <!-- Groups Section (Card Grid) -->
+  <section id="groups" class="wix-section">
     <div class="container">
-      <h2>Discover Your Perfect Group</h2>
-      <div class="group-grid">
-        <div class="group-card">
-          <div class="group-icon">
-            <i class="fas fa-laugh-beam"></i>
-          </div>
+      <h2 class="section-title">Discover Your Perfect Group</h2>
+      <div class="wix-grid">
+        <!-- ChillFill Card -->
+        <div class="wix-card">
+          <img src="assets/group-icons/chillfill.svg" alt="ChillFill" class="group-icon">
           <h3>ChillFill</h3>
-          <p>For casual hangs and gossip</p>
-          <span class="price">₹100</span>
-          <a href="#" class="btn">Join Now</a>
+          <p>For casual hangs and campus gossip</p>
+          <div class="price">₹100</div>
+          <a href="#" class="wix-button">Join Group</a>
         </div>
-        <!-- Repeat for SkillHub/TripTribe -->
+        
+        <!-- Repeat for SkillHub and TripTribe -->
       </div>
     </div>
   </section>
 
   <!-- How It Works -->
-  <section id="how-it-works" class="section light-bg">
+  <section id="how-it-works" class="wix-section light-bg">
     <div class="container">
-      <h2>How It Works</h2>
-      <div class="steps">
+      <h2 class="section-title">How It Works</h2>
+      <div class="wix-steps">
         <div class="step">
-          <span>1</span>
+          <div class="step-number">1</div>
           <h3>Choose Your Group</h3>
-          <p>Select from ChillFill, SkillHub, or TripTribe</p>
+          <p>Select ChillFill, SkillHub or TripTribe</p>
         </div>
         <!-- Add steps 2-3 -->
       </div>
@@ -76,7 +74,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer class="wix-footer">
     <div class="container">
       <div class="footer-content">
         <div class="social-links">
