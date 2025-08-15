@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yumigo | Find Your Tribe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Banner -->
+  <div class="banner">
+    <p>Find your perfect friend group • No awkward meetups • 100% verified students</p>
+  </div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="assets/logo.svg" alt="Yumigo" width="120">
+      </a>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#groups">Groups</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Success Stories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Find Your Tribe, <span>Join Your Vibe</span></h1>
+      <p>Connect with college students who share your passions</p>
+      <a href="#groups" class="cta-button">Explore Groups</a>
+    </div>
+  </section>
+
+  <!-- Groups Section -->
+  <section id="groups" class="section">
+    <div class="container">
+      <h2>Discover Your Perfect Group</h2>
+      <div class="group-grid">
+        <div class="group-card">
+          <div class="group-icon">
+            <i class="fas fa-laugh-beam"></i>
+          </div>
+          <h3>ChillFill</h3>
+          <p>For casual hangs and gossip</p>
+          <span class="price">₹100</span>
+          <a href="#" class="btn">Join Now</a>
+        </div>
+        <!-- Repeat for SkillHub/TripTribe -->
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="section light-bg">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <span>1</span>
+          <h3>Choose Your Group</h3>
+          <p>Select from ChillFill, SkillHub, or TripTribe</p>
+        </div>
+        <!-- Add steps 2-3 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="legal-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
